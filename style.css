@@ -4,7 +4,7 @@ body{
 }
 #title {
     width: 720px;
-    background-color: white;
+    background-color: rgb(208, 181, 240);
     margin: auto;
     padding: 10px;
     border-radius: 10px;
@@ -12,33 +12,37 @@ body{
 }
 #div1 {
     width: 500px;
-    background-color: white;
-    margin-left: 301px;
+    background-color: rgb(208, 181, 240);
+    margin-left: 322px;
     padding: 10px;
     border-radius: 10px;
     border: 3px solid lightgray;
     float: left;
 }
 #div2 {
+    background-color: rgb(208, 181, 240);
     width: 220px;
-    height: 218px;
+    height: 229.5px;
     float: right;
-    margin-right: 301px;
+    margin-right: 322px;
+}
+#div3 {
+    background-color: rgb(208, 181, 240);
+    width: 720px;
+    padding: 10px;
+    margin-left: 322px;
+    margin-right: 322px;
+    margin-top: 311.5px;
+    border-radius: 10px;
 }
 p.introduce{
     font-size: 13px;
     font-weight: bold;
     margin: 15px;
 }
-img {
-    width: 220px;
-    height: 218px;
-    border-radius: 10px;
-}
+
 h1 {
     color: black;
-    font-size: 20px;
-    font-weight: bold;
     text-align: center;
 }
 a {
@@ -47,6 +51,12 @@ a {
 a:visited {
     color: darkblue;
 }
-.container {
-    width: 640px;
+table {
+    border: 10;
+    border-color: black;
+    background-color: #D0B5F0;
+    width: 720px;
+    height: 300px;
+    align-items: center;
+    margin: auto;
 }
